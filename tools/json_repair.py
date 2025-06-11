@@ -14,4 +14,4 @@ class JsonRepairTool(Tool):
         text = tool_parameters.get("text", "")
         data = json_repair.loads(text)
         fixed_text = json.dumps(data, ensure_ascii=False)
-        yield self.create_json_message(fixed_text)
+        yield self.create_text_message(fixed_text)

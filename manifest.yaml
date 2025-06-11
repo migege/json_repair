@@ -34,7 +34,7 @@ resource:
       enabled: false
     storage:
       enabled: false
-      size: 0
+      size: 1048576
 plugins:
   tools:
     - provider/json_repair.yaml
